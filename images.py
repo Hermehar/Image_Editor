@@ -54,6 +54,8 @@ def mirror_hor(filename):                                                       
     return mirror_hor
 
 def mirror_ver(filename):                                                         """gets you the vertical mirror image of the image"""
+    width = filename.width
+    height = filename.height
     mirror_ver = SimpleImage.blank(width, height*2)
     for x in range (width):
           for y in range (height):
