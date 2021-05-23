@@ -1,6 +1,6 @@
 from simpleimage import SimpleImage
 INTENSITY_THRESHOLD = 1.6
-DEFAULT_FILE = 'image1.jpg'
+DEFAULT_FILE = '  ' #enter your default file name
 
 def get_file():
     filename = input('Enter image file (or press enter for default): ')                       """user imput"""
